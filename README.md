@@ -9,6 +9,6 @@ Statik tek sayfa (`index.html`). Build adımı yok.
 3. **Build output directory:** `/` veya `.` (statik dosyalar kökte).
 4. Özel alan: `snappost.dev` → Pages projesine bağla.
 
-Yayın öncesi `index.html` içindeki `YOUR_ORG` ifadesini gerçek GitHub kullanıcı/organizasyon adınla değiştir (veya `?template=https://github.com/org/repo` ile geçici test et).
+Varsayılan şablon linki: `github.com/snappost-dev/snappost-shell`. Başka hesap kullanacaksan `index.html` içindeki URL’leri güncelle (veya `?template=https://github.com/org/repo` ile geçici test).
 
 Shell şablonu README’sindeki **snappost.dev** linki bu siteye işaret eder.
