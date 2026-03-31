@@ -1,14 +1,14 @@
 # Snappost — snappost.dev landing
 
-Statik tek sayfa (`index.html`). Build adımı yok.
+Static single-page site (`index.html`). No build step.
 
 ## Cloudflare Pages
 
-1. Bu klasörün içeriğini bir GitHub deposunun **kökü** olarak kullan (veya bu repo’da Pages’te **Root directory** = `snappost-landing`).
-2. **Build command:** boş bırak.
-3. **Build output directory:** `/` veya `.` (statik dosyalar kökte).
-4. Özel alan: `snappost.dev` → Pages projesine bağla.
+1. Use this folder as the **repository root** (or set **Root directory** to `snappost-landing` in a monorepo).
+2. **Build command:** leave empty.
+3. **Build output directory:** `/` or `.` (static files at root).
+4. Point the **snappost.dev** hostname to this Pages project.
 
-Varsayılan şablon linki: `github.com/snappost-dev/snappost-shell`. Başka hesap kullanacaksan `index.html` içindeki URL’leri güncelle (veya `?template=https://github.com/org/repo` ile geçici test).
+Default template link in `index.html`: `github.com/snappost-dev/snappost-shell`. Change the URLs in `index.html` if you use another account, or test with `?template=https://github.com/org/repo`.
 
-Shell şablonu README’sindeki **snappost.dev** linki bu siteye işaret eder.
+The shell template README links to **snappost.dev** for general information.
